@@ -80,139 +80,122 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Implementation Paths Section */}
+      {/* Implementation Path Section */}
       <section className="py-24 bg-gradient-to-br from-muted/50 to-muted/20">
         <div className="container mx-auto px-6">
           <div className="max-w-7xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Пути реализации</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Как мы достигаем результата</h2>
             <p className="text-xl text-center text-muted-foreground mb-16 max-w-3xl mx-auto">
-              Мы предлагаем гибкий подход к реализации проекта с несколькими вариантами масштабирования
+              Системный подход к проектированию архитектуры через глубокое погружение в бизнес-процессы и технологический ландшафт
             </p>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card className="p-8 bg-white border-2 border-transparent hover:border-primary transition-all">
-                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 mx-auto">
-                  <Icon name="Zap" className="text-primary" size={32} />
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="ClipboardList" className="text-primary" size={32} />
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-center">Быстрый старт</h3>
-                <p className="text-muted-foreground mb-6 text-center">
-                  Минимальная версия архитектуры для быстрого запуска
+                <h3 className="text-xl font-bold mb-4">Сбор бизнес-требований</h3>
+                <p className="text-muted-foreground">
+                  Детальное изучение потребностей бизнеса, целей масштабирования и ключевых метрик успеха. Формализация функциональных и нефункциональных требований.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Базовая архитектура под текущие требования</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Основные интеграции (каталог, поиск, заказы)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Roadmap на первое полугодие</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Упрощённая модель команды</span>
-                  </li>
-                </ul>
-                <div className="mt-8 pt-6 border-t">
-                  <p className="text-sm text-muted-foreground text-center">Срок реализации</p>
-                  <p className="text-3xl font-bold text-center text-primary">3 недели</p>
-                </div>
               </Card>
 
-              <Card className="p-8 bg-white border-2 border-primary shadow-xl transform scale-105">
-                <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-                  <span className="bg-primary text-white px-4 py-1 rounded-full text-sm font-bold">
-                    Рекомендуем
-                  </span>
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="Search" className="text-primary" size={32} />
                 </div>
-                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 mx-auto">
-                  <Icon name="Rocket" className="text-primary" size={32} />
-                </div>
-                <h3 className="text-2xl font-bold mb-4 text-center">Полный проект</h3>
-                <p className="text-muted-foreground mb-6 text-center">
-                  Комплексное решение для долгосрочного масштабирования
+                <h3 className="text-xl font-bold mb-4">Анализ текущего стека</h3>
+                <p className="text-muted-foreground">
+                  Аудит существующей IT-инфраструктуры, выявление узких мест и ограничений. Оценка технического долга и возможностей переиспользования.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Целевая архитектура Askona 3.0</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Полная интеграционная архитектура</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Детальный Roadmap на 2026 год</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Целевые процессы и проектная команда</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Мультистрановая локализация</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Оценка рисков и бюджетов</span>
-                  </li>
-                </ul>
-                <div className="mt-8 pt-6 border-t">
-                  <p className="text-sm text-muted-foreground text-center">Срок реализации</p>
-                  <p className="text-3xl font-bold text-center text-primary">5 недель</p>
-                </div>
               </Card>
 
-              <Card className="p-8 bg-white border-2 border-transparent hover:border-primary transition-all">
-                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6 mx-auto">
-                  <Icon name="Building" className="text-primary" size={32} />
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="GitBranch" className="text-primary" size={32} />
                 </div>
-                <h3 className="text-2xl font-bold mb-4 text-center">Enterprise</h3>
-                <p className="text-muted-foreground mb-6 text-center">
-                  Максимальная кастомизация под специфику бизнеса
+                <h3 className="text-xl font-bold mb-4">Изучение интеграций</h3>
+                <p className="text-muted-foreground">
+                  Анализ текущих и планируемых интеграций с внешними системами: платежи, доставка, CRM, ERP. Определение точек взаимодействия.
                 </p>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Всё из полного проекта</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Детальный анализ текущих систем</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Стратегия миграции данных</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Прототипирование ключевых модулей</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <Icon name="Check" className="text-primary mt-1 flex-shrink-0" size={20} />
-                    <span className="text-sm">Сопровождение на этапе внедрения</span>
-                  </li>
-                </ul>
-                <div className="mt-8 pt-6 border-t">
-                  <p className="text-sm text-muted-foreground text-center">Срок реализации</p>
-                  <p className="text-3xl font-bold text-center text-primary">8+ недель</p>
+              </Card>
+
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="Layers" className="text-primary" size={32} />
                 </div>
+                <h3 className="text-xl font-bold mb-4">Выбор технологий</h3>
+                <p className="text-muted-foreground">
+                  Подбор оптимального технологического стека для масштабирования: микросервисы, базы данных, кеширование, очереди сообщений.
+                </p>
+              </Card>
+
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="Box" className="text-primary" size={32} />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Проектирование платформы</h3>
+                <p className="text-muted-foreground">
+                  Создание целевой архитектуры с учётом принципов масштабируемости, отказоустойчивости и безопасности. Разделение на функциональные блоки.
+                </p>
+              </Card>
+
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="Globe" className="text-primary" size={32} />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Мультистрановость</h3>
+                <p className="text-muted-foreground">
+                  Проектирование модели локализации для разных стран: валюты, языки, платежи, доставка. Определение единого и локального функционала.
+                </p>
+              </Card>
+
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="TrendingUp" className="text-primary" size={32} />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Оценка показателей</h3>
+                <p className="text-muted-foreground">
+                  Определение объёмных характеристик: количество товаров, пользователей, заказов. Расчёт требований к производительности и нагрузкам.
+                </p>
+              </Card>
+
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="Map" className="text-primary" size={32} />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Создание Roadmap</h3>
+                <p className="text-muted-foreground">
+                  Разработка поэтапного плана внедрения с milestone, зависимостями и оценкой рисков. Определение приоритетов и последовательности работ.
+                </p>
+              </Card>
+
+              <Card className="p-8 bg-white hover:shadow-xl transition-shadow">
+                <div className="flex items-center justify-center w-16 h-16 bg-primary/10 rounded-full mb-6">
+                  <Icon name="Users" className="text-primary" size={32} />
+                </div>
+                <h3 className="text-xl font-bold mb-4">Формирование команды</h3>
+                <p className="text-muted-foreground">
+                  Определение состава проектной команды, ролей и зон ответственности. Описание процессов разработки и взаимодействия между командами.
+                </p>
               </Card>
             </div>
 
-            <div className="mt-16 text-center">
-              <Card className="p-8 bg-black text-white max-w-4xl mx-auto">
-                <div className="flex items-center justify-center gap-4 mb-4">
-                  <Icon name="Lightbulb" className="text-primary" size={32} />
-                  <h3 className="text-2xl font-bold">Модульный подход</h3>
+            <div className="mt-16">
+              <Card className="p-10 bg-black text-white">
+                <div className="flex items-start gap-6">
+                  <div className="flex-shrink-0">
+                    <Icon name="Target" className="text-primary" size={48} />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl font-bold mb-4">Результат комплексного подхода</h3>
+                    <p className="text-lg text-white/80 leading-relaxed">
+                      В результате последовательного выполнения всех этапов вы получаете не просто документацию, 
+                      а готовую стратегию трансформации платформы с чёткими шагами, сроками, бюджетами и пониманием 
+                      того, какие ресурсы и компетенции необходимы для успешного масштабирования бизнеса.
+                    </p>
+                  </div>
                 </div>
-                <p className="text-lg text-white/80">
-                  Вы можете начать с минимального варианта и постепенно расширять проект, добавляя дополнительные модули по мере необходимости. Каждый этап можно выполнять отдельно.
-                </p>
               </Card>
             </div>
           </div>
