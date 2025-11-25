@@ -347,6 +347,139 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Roadmap Timeline Section */}
+      <section className="py-24 bg-muted/30">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">Предварительный roadmap</h2>
+            
+            <div className="overflow-x-auto">
+              <div className="min-w-[800px]">
+                <div className="grid grid-cols-6 gap-4 mb-8 text-center text-sm font-medium text-muted-foreground">
+                  <div className="text-left">Состав работ</div>
+                  <div>1</div>
+                  <div>2</div>
+                  <div>3</div>
+                  <div>4</div>
+                  <div>5</div>
+                </div>
+                
+                <div className="space-y-4">
+                  <div className="grid grid-cols-6 gap-4 items-center">
+                    <div className="text-sm">
+                      <span className="text-primary font-bold">Этап 1.</span> Проектирование архитектуры в соответствии с представленным ТЗ
+                    </div>
+                    <div className="col-span-3 h-12 bg-primary rounded"></div>
+                    <div className="col-span-2"></div>
+                  </div>
+
+                  <div className="grid grid-cols-6 gap-4 items-center">
+                    <div className="text-sm">
+                      <span className="text-primary font-bold">Этап 2.</span> Определение технологических ориентиров платформы
+                    </div>
+                    <div className="col-span-1"></div>
+                    <div className="col-span-4 h-12 bg-primary rounded"></div>
+                  </div>
+
+                  <div className="grid grid-cols-6 gap-4 items-center">
+                    <div className="text-sm">
+                      <span className="text-primary font-bold">Этап 3.</span> Создание дорожной карты внедрения
+                    </div>
+                    <div className="col-span-3"></div>
+                    <div className="col-span-2 h-12 bg-primary rounded"></div>
+                  </div>
+
+                  <div className="grid grid-cols-6 gap-4 items-center">
+                    <div className="text-sm">
+                      <span className="text-primary font-bold">Этап 4.</span> Ретроспектива процессов и формирование проектной команды
+                    </div>
+                    <div className="col-span-5 h-12 bg-primary rounded"></div>
+                  </div>
+                </div>
+
+                <div className="mt-6 text-right text-sm font-medium text-muted-foreground">
+                  Длительность, недель
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Pricing Section */}
+      <section className="py-24 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">Стоимость</h2>
+            
+            <div className="overflow-x-auto">
+              <table className="w-full">
+                <thead>
+                  <tr className="border-b-2 border-black">
+                    <th className="text-left py-4 px-4 font-bold">Этап</th>
+                    <th className="text-left py-4 px-4 font-bold">Длительность этапа</th>
+                    <th className="text-left py-4 px-4 font-bold text-primary">Стоимость (руб. без НДС)</th>
+                    <th className="text-left py-4 px-4 font-bold text-primary">Стоимость (руб. с НДС)</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  <tr className="hover:bg-muted/20 transition-colors">
+                    <td className="py-4 px-4">
+                      <p className="font-medium">Этап 1. Проектирование архитектуры в соответствии с представленным ТЗ</p>
+                    </td>
+                    <td className="py-4 px-4">3 недели</td>
+                    <td className="py-4 px-4 text-primary font-bold text-lg">608 484</td>
+                    <td className="py-4 px-4 text-primary font-bold text-lg">730 181</td>
+                  </tr>
+                  
+                  <tr className="hover:bg-muted/20 transition-colors">
+                    <td className="py-4 px-4">
+                      <p className="font-medium">Этап 2. Определение технологических ориентиров платформы карты внедрения проектируемой архитектуры</p>
+                    </td>
+                    <td className="py-4 px-4">3 недели</td>
+                    <td className="py-4 px-4 text-primary font-bold text-lg">968 704</td>
+                    <td className="py-4 px-4 text-primary font-bold text-lg">1 162 445</td>
+                  </tr>
+
+                  <tr className="hover:bg-muted/20 transition-colors">
+                    <td className="py-4 px-4">
+                      <p className="font-medium">Этап 3. Создание дорожной карты внедрения</p>
+                    </td>
+                    <td className="py-4 px-4">2 недели</td>
+                    <td className="py-4 px-4 text-primary font-bold text-lg">287 153</td>
+                    <td className="py-4 px-4 text-primary font-bold text-lg">344 583</td>
+                  </tr>
+
+                  <tr className="hover:bg-muted/20 transition-colors">
+                    <td className="py-4 px-4">
+                      <p className="font-medium">Этап 4. Ретроспектива процессов и формирование проектной команды</p>
+                    </td>
+                    <td className="py-4 px-4">5 недель</td>
+                    <td className="py-4 px-4 text-primary font-bold text-lg">454 236</td>
+                    <td className="py-4 px-4 text-primary font-bold text-lg">545 083</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="mt-12 grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+              <Card className="p-8 bg-muted/30 border-0">
+                <p className="text-sm text-muted-foreground mb-2">Итого за проект</p>
+                <p className="text-4xl font-bold text-primary mb-2">3 294 142 руб.</p>
+                <p className="text-xl text-muted-foreground">без НДС</p>
+                <p className="text-lg text-muted-foreground mt-2">3 952 971 руб. с НДС</p>
+              </Card>
+
+              <Card className="p-8 bg-muted/30 border-0">
+                <p className="text-sm text-muted-foreground mb-2">Длительность проекта</p>
+                <p className="text-4xl font-bold text-primary">5 недель</p>
+                <p className="text-lg text-muted-foreground mt-4">Параллельное выполнение этапов</p>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="py-24 bg-black text-white">
         <div className="container mx-auto px-6">
