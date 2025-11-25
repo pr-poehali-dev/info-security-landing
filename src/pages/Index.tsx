@@ -245,6 +245,104 @@ const Index = () => {
                 </div>
               </div>
             </div>
+
+            {/* Stage 3 */}
+            <div className="relative mt-20">
+              <div className="absolute left-0 top-0 w-24 h-24 bg-black text-white rounded-full flex items-center justify-center text-3xl font-bold">
+                03
+              </div>
+              <div className="ml-32">
+                <h3 className="text-3xl font-bold mb-6">Дорожная карта внедрения</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <Card className="p-6 border-l-4 border-l-black">
+                    <h4 className="font-bold mb-3 flex items-center gap-2">
+                      <Icon name="Calendar" size={20} />
+                      Планирование этапов
+                    </h4>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      <li>• Определение этапов развития</li>
+                      <li>• Согласование milestone внедрений</li>
+                      <li>• Создание карты зависимостей</li>
+                    </ul>
+                  </Card>
+
+                  <Card className="p-6 border-l-4 border-l-black">
+                    <h4 className="font-bold mb-3 flex items-center gap-2">
+                      <Icon name="TrendingUp" size={20} />
+                      Оценка и риски
+                    </h4>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      <li>• Оценка основных рисков</li>
+                      <li>• Бюджеты внедрений</li>
+                      <li>• Презентация дорожной карты</li>
+                    </ul>
+                  </Card>
+                </div>
+                <div className="mt-8 bg-black text-white p-6 rounded-lg">
+                  <p className="font-bold flex items-center gap-2">
+                    <Icon name="Target" size={20} />
+                    Результат этапа:
+                  </p>
+                  <p className="text-lg mt-2">Roadmap развития Askona 3.0 на 2026 год</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Stage 4 */}
+            <div className="relative mt-20">
+              <div className="absolute left-0 top-0 w-24 h-24 bg-black text-white rounded-full flex items-center justify-center text-3xl font-bold">
+                04
+              </div>
+              <div className="ml-32">
+                <h3 className="text-3xl font-bold mb-6">Процессы и команда</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <Card className="p-6 border-l-4 border-l-black">
+                    <h4 className="font-bold mb-3 flex items-center gap-2">
+                      <Icon name="Settings" size={20} />
+                      Формализация потребностей
+                    </h4>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      <li>• Ограничения на внедрение</li>
+                      <li>• Бюджеты и локация</li>
+                      <li>• Адаптация модели процессов</li>
+                    </ul>
+                  </Card>
+
+                  <Card className="p-6 border-l-4 border-l-black">
+                    <h4 className="font-bold mb-3 flex items-center gap-2">
+                      <Icon name="Users" size={20} />
+                      Проектирование решения
+                    </h4>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      <li>• Ретроспективный анализ</li>
+                      <li>• Рекомендации инструментов</li>
+                      <li>• Модель процессов разработки</li>
+                    </ul>
+                  </Card>
+
+                  <Card className="p-6 border-l-4 border-l-black col-span-2">
+                    <h4 className="font-bold mb-3 flex items-center gap-2">
+                      <Icon name="Briefcase" size={20} />
+                      Организационная структура
+                    </h4>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      <li>• Формализация модели процессов</li>
+                      <li>• Роли, обязанности и требуемые знания</li>
+                      <li>• Форматы взаимодействия</li>
+                      <li>• Оценка объёма ролей</li>
+                      <li>• Презентация модели процессов и орг структуры</li>
+                    </ul>
+                  </Card>
+                </div>
+                <div className="mt-8 bg-black text-white p-6 rounded-lg">
+                  <p className="font-bold flex items-center gap-2">
+                    <Icon name="Target" size={20} />
+                    Результат этапа:
+                  </p>
+                  <p className="text-lg mt-2">Целевые процессы и проектная команда</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
