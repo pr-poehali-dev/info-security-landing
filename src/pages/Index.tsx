@@ -634,6 +634,103 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Team Section */}
+      <section className="py-24 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="max-w-7xl mx-auto">
+            <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Состав команды</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <Card className="p-6 hover:shadow-xl transition-shadow">
+                <div className="flex gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-24 h-24 bg-muted rounded-lg overflow-hidden">
+                      <img 
+                        src="https://cdn.poehali.dev/files/acc54d65-50b1-4cd6-a545-5aaf773d923e.png" 
+                        alt="Евгений Скориков"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-1">Евгений Скориков</h3>
+                    <p className="text-muted-foreground mb-2">Team Lead анализа</p>
+                    <p className="text-sm text-muted-foreground">Ведущий Enterprise архитектор, опыт работы — более 20 лет</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6 hover:shadow-xl transition-shadow">
+                <div className="flex gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-24 h-24 bg-muted rounded-lg overflow-hidden">
+                      <img 
+                        src="https://cdn.poehali.dev/files/cbec3c27-ea4f-4751-bac9-6572fbf01434.png" 
+                        alt="Соколова Елена"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-1">Соколова Елена</h3>
+                    <p className="text-muted-foreground mb-2">Руководитель проекта</p>
+                    <p className="text-sm text-muted-foreground">Старший руководитель проектов, опыт работы — 12 лет</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6 hover:shadow-xl transition-shadow">
+                <div className="flex gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-24 h-24 bg-muted rounded-lg overflow-hidden">
+                      <img 
+                        src="https://cdn.poehali.dev/files/9a83db87-0ff9-45b7-a876-1769e4c2460c.png" 
+                        alt="Ровдо Алексей"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-1">Ровдо Алексей</h3>
+                    <p className="text-muted-foreground mb-2">Системный аналитик</p>
+                    <p className="text-sm text-muted-foreground">Главный аналитик, опыт работы — 35 лет</p>
+                  </div>
+                </div>
+              </Card>
+
+              <Card className="p-6 hover:shadow-xl transition-shadow">
+                <div className="flex gap-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-24 h-24 bg-muted rounded-lg overflow-hidden">
+                      <img 
+                        src="https://cdn.poehali.dev/files/1bb5b9af-2d73-4dd2-9823-166bbec38ed1.png" 
+                        alt="Абдульманова Диана"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-1">Абдульманова Диана</h3>
+                    <p className="text-muted-foreground mb-2">Аналитик</p>
+                    <p className="text-sm text-muted-foreground">Опыт работы — 6 лет</p>
+                  </div>
+                </div>
+              </Card>
+            </div>
+
+            <Card className="p-8 bg-muted/30 border-0">
+              <div className="text-center">
+                <Icon name="Users" className="w-12 h-12 text-primary mx-auto mb-4" />
+                <h3 className="text-xl font-bold mb-3">Техлид</h3>
+                <p className="text-muted-foreground">
+                  В команду также входит опытный технический лидер, который обеспечивает качество технических решений
+                </p>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section 
         id="contact" 
