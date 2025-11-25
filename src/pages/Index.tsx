@@ -609,10 +609,10 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">Почему это важно?</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div>
-                <div className="text-5xl font-bold mb-4 text-primary">10x</div>
+                <div className="text-5xl font-bold mb-4 text-primary">×N</div>
                 <h3 className="text-xl font-bold mb-3">Кратный рост</h3>
                 <p className="text-white/70">
-                  Правильная архитектура обеспечивает возможность масштабирования бизнеса в десятки раз
+                  Правильная архитектура обеспечивает возможность масштабирования бизнеса
                 </p>
               </div>
               <div>
