@@ -645,13 +645,19 @@ const Index = () => {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                      <Icon name="User" className="text-primary" size={28} />
+                      <Icon name="UserCog" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold mb-1">Евгений Скориков</h3>
-                    <p className="text-muted-foreground mb-2">Team Lead анализа</p>
-                    <p className="text-sm text-muted-foreground">Ведущий Enterprise архитектор, опыт работы — более 20 лет</p>
+                    <p className="text-primary font-medium mb-2">Team Lead анализа</p>
+                    <p className="text-sm text-muted-foreground mb-3">Ведущий Enterprise архитектор, опыт работы — более 20 лет</p>
+                    <ul className="text-xs text-muted-foreground space-y-1">
+                      <li>• Проектирование интеграционной и функциональной архитектуры</li>
+                      <li>• Контроль качества технических заданий</li>
+                      <li>• Номинант премии IT Лидер в номинации «Торговля»</li>
+                      <li>• Спикер на профильных конференциях, автор статей по ИТ-тематике</li>
+                    </ul>
                   </div>
                 </div>
               </Card>
@@ -660,13 +666,19 @@ const Index = () => {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                      <Icon name="User" className="text-primary" size={28} />
+                      <Icon name="Briefcase" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold mb-1">Соколова Елена</h3>
-                    <p className="text-muted-foreground mb-2">Руководитель проекта</p>
-                    <p className="text-sm text-muted-foreground">Старший руководитель проектов, опыт работы — 12 лет</p>
+                    <p className="text-primary font-medium mb-2">Руководитель проекта</p>
+                    <p className="text-sm text-muted-foreground mb-3">Старший руководитель проектов, опыт работы — 12 лет</p>
+                    <ul className="text-xs text-muted-foreground space-y-1">
+                      <li>• Реализация E-commerce проектов (крупный ритейл, интернет-магазины)</li>
+                      <li>• Digital-проекты: ведение сделок, сметы и финпланы</li>
+                      <li>• Управление бюджетом и рисками проекта</li>
+                      <li>• Опыт работы в Agile, Scrum, основы тайм-менеджмента</li>
+                    </ul>
                   </div>
                 </div>
               </Card>
@@ -675,13 +687,19 @@ const Index = () => {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                      <Icon name="User" className="text-primary" size={28} />
+                      <Icon name="Brain" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold mb-1">Ровдо Алексей</h3>
-                    <p className="text-muted-foreground mb-2">Системный аналитик</p>
-                    <p className="text-sm text-muted-foreground">Главный аналитик, опыт работы — 35 лет</p>
+                    <p className="text-primary font-medium mb-2">Системный аналитик</p>
+                    <p className="text-sm text-muted-foreground mb-3">Главный аналитик, опыт работы — 35 лет</p>
+                    <ul className="text-xs text-muted-foreground space-y-1">
+                      <li>• Анализ бизнес-процессов заказчиков, разработка ТЗ</li>
+                      <li>• Проектирование высоконагруженных архитектур (1С-Битрикс, Битрикс24)</li>
+                      <li>• Опыт: E-Commerce, IoT, CRM, Business Planning, ERP</li>
+                      <li>• Координация работ по информационной безопасности</li>
+                    </ul>
                   </div>
                 </div>
               </Card>
@@ -690,13 +708,19 @@ const Index = () => {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                      <Icon name="User" className="text-primary" size={28} />
+                      <Icon name="FileSearch" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold mb-1">Абдульманова Диана</h3>
-                    <p className="text-muted-foreground mb-2">Аналитик</p>
-                    <p className="text-sm text-muted-foreground">Опыт работы — 6 лет</p>
+                    <p className="text-primary font-medium mb-2">Аналитик</p>
+                    <p className="text-sm text-muted-foreground mb-3">Опыт работы — 6 лет</p>
+                    <ul className="text-xs text-muted-foreground space-y-1">
+                      <li>• Сбор и формализация требований для развития систем</li>
+                      <li>• Моделирование бизнес-процессов (BPMN, UML)</li>
+                      <li>• Описание интеграционного взаимодействия между системами (API)</li>
+                      <li>• Системы управления: Confluence, Jira, Miro, Notion</li>
+                    </ul>
                   </div>
                 </div>
               </Card>
@@ -705,13 +729,19 @@ const Index = () => {
                 <div className="flex gap-4">
                   <div className="flex-shrink-0">
                     <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                      <Icon name="User" className="text-primary" size={28} />
+                      <Icon name="Code" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
                     <h3 className="text-xl font-bold mb-1">Техлид</h3>
-                    <p className="text-muted-foreground mb-2">Технический лидер</p>
-                    <p className="text-sm text-muted-foreground">Обеспечивает качество технических решений</p>
+                    <p className="text-primary font-medium mb-2">Технический лидер</p>
+                    <p className="text-sm text-muted-foreground mb-3">Обеспечивает качество технических решений</p>
+                    <ul className="text-xs text-muted-foreground space-y-1">
+                      <li>• Оценка технической реализуемости архитектуры</li>
+                      <li>• Выбор оптимального технологического стека</li>
+                      <li>• Контроль технического долга и качества кода</li>
+                      <li>• Координация разработки и тестирования</li>
+                    </ul>
                   </div>
                 </div>
               </Card>
