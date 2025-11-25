@@ -640,16 +640,12 @@ const Index = () => {
           <div className="max-w-7xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">Состав команды</h2>
             
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
+            <div className="grid md:grid-cols-2 gap-6">
               <Card className="p-6 hover:shadow-xl transition-shadow">
-                <div className="flex gap-6">
+                <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-24 h-24 bg-muted rounded-lg overflow-hidden">
-                      <img 
-                        src="https://cdn.poehali.dev/files/acc54d65-50b1-4cd6-a545-5aaf773d923e.png" 
-                        alt="Евгений Скориков"
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                      <Icon name="User" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
@@ -661,14 +657,10 @@ const Index = () => {
               </Card>
 
               <Card className="p-6 hover:shadow-xl transition-shadow">
-                <div className="flex gap-6">
+                <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-24 h-24 bg-muted rounded-lg overflow-hidden">
-                      <img 
-                        src="https://cdn.poehali.dev/files/cbec3c27-ea4f-4751-bac9-6572fbf01434.png" 
-                        alt="Соколова Елена"
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                      <Icon name="User" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
@@ -680,14 +672,10 @@ const Index = () => {
               </Card>
 
               <Card className="p-6 hover:shadow-xl transition-shadow">
-                <div className="flex gap-6">
+                <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-24 h-24 bg-muted rounded-lg overflow-hidden">
-                      <img 
-                        src="https://cdn.poehali.dev/files/9a83db87-0ff9-45b7-a876-1769e4c2460c.png" 
-                        alt="Ровдо Алексей"
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                      <Icon name="User" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
@@ -699,14 +687,10 @@ const Index = () => {
               </Card>
 
               <Card className="p-6 hover:shadow-xl transition-shadow">
-                <div className="flex gap-6">
+                <div className="flex gap-4">
                   <div className="flex-shrink-0">
-                    <div className="w-24 h-24 bg-muted rounded-lg overflow-hidden">
-                      <img 
-                        src="https://cdn.poehali.dev/files/1bb5b9af-2d73-4dd2-9823-166bbec38ed1.png" 
-                        alt="Абдульманова Диана"
-                        className="w-full h-full object-cover"
-                      />
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                      <Icon name="User" className="text-primary" size={28} />
                     </div>
                   </div>
                   <div className="flex-1">
@@ -716,17 +700,22 @@ const Index = () => {
                   </div>
                 </div>
               </Card>
-            </div>
 
-            <Card className="p-8 bg-muted/30 border-0">
-              <div className="text-center">
-                <Icon name="Users" className="w-12 h-12 text-primary mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-3">Техлид</h3>
-                <p className="text-muted-foreground">
-                  В команду также входит опытный технический лидер, который обеспечивает качество технических решений
-                </p>
-              </div>
-            </Card>
+              <Card className="p-6 hover:shadow-xl transition-shadow">
+                <div className="flex gap-4">
+                  <div className="flex-shrink-0">
+                    <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
+                      <Icon name="User" className="text-primary" size={28} />
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold mb-1">Техлид</h3>
+                    <p className="text-muted-foreground mb-2">Технический лидер</p>
+                    <p className="text-sm text-muted-foreground">Обеспечивает качество технических решений</p>
+                  </div>
+                </div>
+              </Card>
+            </div>
           </div>
         </div>
       </section>
